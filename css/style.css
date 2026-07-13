@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: arial, sans-serif;
+    line-height: 1.6;
+    background-color: #C6CDF5;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+h1,
+h2 {
+    line-height: 1.2;
+}
+header nav {
+    padding: 1rem;
+    color: aliceblue;
+    background-color: #3A4C11;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #242e0c;
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    border: 2px solid #242e0c;
+    background-color: #758F3A;
+    border-radius: 8px;
+}
+
+header section{
+    padding: 1rem;
+    color: aliceblue;
+    background-color: #758F3A;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: 2rem 1rem; 
+    
+}
+
+main {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0;
+    align-self: center;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 8fr 4fr;
+    gap: 2rem;
+}
+.hero article,
+aside {
+    border: 2px solid black;
+    padding: 2rem;
+    border-radius: 6px;
+}
+ul {
+    list-style: disc;
+    padding: 1rem;
+}
+
+.video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    
+}
+footer {
+    text-align: center;
+    padding: 1rem;
+    color: aliceblue;
+    background-color: #3A4C11;
+}
+footer a {
+    text-decoration: none;
+    color: aliceblue;
+    margin-top: auto;
+}
