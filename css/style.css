@@ -70,6 +70,10 @@ main {
     grid-template-columns: 2fr 1fr;
     gap: 2rem;
 }
+
+h2 {
+    color: #557ACE;
+}
 .hero article,
 aside {
     border: 2px solid black;
@@ -96,6 +100,15 @@ iframe {
     padding: 2rem;
     background-color: #557ACE;
 }
+
+.events ul li{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
 
 footer {
     display: flex;
