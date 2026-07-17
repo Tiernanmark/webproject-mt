@@ -20,13 +20,14 @@ h2 {
 
 header {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
 }
-header nav {
+nav {
     padding: 1rem;
     color: aliceblue;
-    background-color: #557ACE;
+    background-color: #557ACE; 
 }
+
 header img {
     margin-left: 3rem;
 }
@@ -67,7 +68,7 @@ main {
 
 .hero {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 3fr 1fr;
     gap: 2rem;
 }
 
