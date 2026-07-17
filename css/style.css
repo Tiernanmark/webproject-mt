@@ -28,6 +28,10 @@ nav {
     background-color: #557ACE; 
 }
 
+.navbar-nav {
+    font-weight: bold;
+}
+
 header img {
     margin-left: 3rem;
 }
