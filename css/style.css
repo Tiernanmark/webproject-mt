@@ -20,6 +20,14 @@ h4 {
   font-family: "UnifrakturCook";
   font-weight: 700;
 }
+p,
+li,
+table {
+  font-family: "Germania One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
 
 h2 {
     line-height: 1.2;
@@ -37,6 +45,8 @@ nav {
 
 .navbar-nav {
     font-weight: bold;
+    font-family: "UnifrakturCook";
+  font-weight: 700;
 }
 
 header img {
@@ -45,6 +55,7 @@ header img {
 
 header h1 {
     margin-right: 3rem;
+    font-size: 80px;
 }
 nav a {
     text-decoration: none;
