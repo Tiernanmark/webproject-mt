@@ -130,6 +130,8 @@ iframe {
     border: 3px solid black;
     padding: 2rem;
     background-color: #557ACE;
+    width: 840px;
+    height: 472px;
 }
 
 
@@ -154,6 +156,14 @@ iframe {
     border: 3px solid #041C52;
     border-radius: 6px;
     background-color: #557ACE;
+}
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
 }
  
 
@@ -183,4 +193,61 @@ footer a {
     border: 2px solid #999CA4;
     background-color: #f9f9f9;
     border-radius: 8px;
+}
+
+@media (max-width: 985px) {
+.hero {
+    display: flex;
+    flex-direction: column;
+}
+iframe {
+    width: 600px;
+    height: 400px;
+}
+}
+
+
+@media (max-width: 768px){
+form{
+    width: auto;
+}
+iframe {
+    width: auto;
+    height: auto;
+}
+header section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   } 
+   header img {
+    margin-left: 0rem;
+}
+
+header h1 {
+    margin-right: 0rem;
+    align-items: center;
+    padding: 1rem 3rem;
+    text-align: center;
+}
+
+}
+
+
+@media (max-width: 480px){
+header section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   } 
+   header img {
+    margin-left: 0rem;
+}
+
+header h1 {
+    margin-right: 0rem;
+    align-items: center;
+    padding: 1rem 3rem;
+    text-align: center;
+}
 }
