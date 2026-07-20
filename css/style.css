@@ -35,7 +35,6 @@ table {
   font-size: 20px;
 }
 
-
 h2 {
     line-height: 1.2;
 }
@@ -44,6 +43,7 @@ header {
     display: flex;
     flex-direction: column;
 }
+
 nav {
     padding: 1rem;
     color: aliceblue;
@@ -64,6 +64,7 @@ header h1 {
     margin-right: 3rem;
     font-size: 80px;
 }
+
 nav a {
     text-decoration: none;
     font-weight: bold;
@@ -87,20 +88,19 @@ header section{
 
 main {
     padding: 2rem;
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0;
     align-self: center;
 }
+
+
+
+
 
 .hero {
     display: grid;
     grid-template-columns: 3fr 1fr;
     gap: 2rem;
-}
-
-h2 {
-    color: #557ACE;
-    font-size: 40px;
 }
 
 .hero article,
@@ -109,9 +109,11 @@ aside {
     padding: 2rem;
     border-radius: 6px;
 }
+
 .hero article h2 {
     margin-bottom: 1rem;
 }
+
 ul {
     list-style: disc;
     padding: 1rem;
@@ -129,6 +131,10 @@ iframe {
     padding: 2rem;
     background-color: #557ACE;
 }
+
+
+
+
 
 .events h2 {
     margin-top: 2rem;
@@ -149,7 +155,15 @@ iframe {
     border-radius: 6px;
     background-color: #557ACE;
 }
-    
+ 
+
+
+
+
+
+
+
+
 
 footer {
     display: flex;
