@@ -7,10 +7,17 @@
 body {
     font-family: arial, sans-serif;
     line-height: 1.6;
-    background-color: #F9F9F9;
+    background-image: linear-gradient(to bottom right, #999CA4, #f9f9f9); 
     display: flex;
     flex-direction: column;
     margin: 0;
+}
+
+header {
+  background-image: url('images/alps.jpg');
+  background-repeat: no-repeat;
+  background-attachment: ;
+  background-size: cover;
 }
 
 h1,
@@ -70,15 +77,12 @@ nav a {
 
 header section{
     color: #041C52;
-    background-color: #999CA4;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 1rem;
     flex-wrap: wrap;
-    padding: 4rem 1rem;
-    background-image: linear-gradient(to bottom right, #999CA4, #f9f9f9); 
-    
+    padding: 4rem 1rem;   
 }
 
 main {
