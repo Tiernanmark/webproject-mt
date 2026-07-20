@@ -32,6 +32,7 @@ table {
   font-family: "Germania One", system-ui;
   font-weight: 400;
   font-style: normal;
+  font-size: 20px;
 }
 
 
@@ -99,6 +100,7 @@ main {
 
 h2 {
     color: #557ACE;
+    font-size: 40px;
 }
 
 .hero article,
@@ -128,12 +130,12 @@ iframe {
     background-color: #557ACE;
 }
 
-.events h4 {
-    font-size: 40px;
+.events h2 {
+    margin-top: 2rem;
 }
 
-.events p {
-    font-size: 20px;
+.evenys div {
+    gap: 2rem;
 }
 
 .events div div {
@@ -145,6 +147,7 @@ iframe {
     gap: 1rem;
     border: 3px solid #041C52;
     border-radius: 6px;
+    background-color: #557ACE;
 }
     
 
