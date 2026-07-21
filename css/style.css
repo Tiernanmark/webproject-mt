@@ -180,12 +180,18 @@ footer a {
 .hero article,
 aside {
     border: none;
-    padding: 1rem;
     border-radius: none;
 }
 iframe {
     width: 600px;
     height: 400px;
+    margin-bottom: 1rem;
+}
+.video {
+    padding: 0rem;
+}
+footer {
+    text-align: center;
 }
 }
 
@@ -224,6 +230,12 @@ header h1 {
 }
 .events div div a img {
     width: 300px;
+}
+iframe {
+    border: none;
+    padding: 1rem;
+
+
 }
 }
 
