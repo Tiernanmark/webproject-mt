@@ -24,7 +24,6 @@ h2,
 h3,
 h4 {
   font-family: "UnifrakturCook";
-  font-weight: 700;
 }
 p,
 li,
@@ -35,25 +34,13 @@ table {
   font-size: large;
 }
 
-h2 {
-    line-height: 1.2;
-}
-
 header {
     display: flex;
     flex-direction: column;
 }
 
 nav {
-    padding: 1rem;
-    color: aliceblue;
     background-color: #557ACE; 
-}
-
-.navbar-nav {
-    font-weight: bold;
-    font-family: "UnifrakturCook";
-  font-weight: 700;
 }
 
 header img {
@@ -62,20 +49,11 @@ header img {
 
 header h1 {
     margin-right: 3rem;
-    font-size: 80px;
+    font-size: 4rem;
 }
-
-nav a {
-    text-decoration: none;
-    font-weight: bold;
-    color: #242e0c;
-    display: inline-block;
-    padding: 0.25rem 0.5rem;
-    border: 2px solid #999CA4;
-    background-color: #f9f9f9;
-    border-radius: 8px;
+nav button {
+    margin-left: 1rem;
 }
-
 header section{
     color: #041C52;
     display: flex;
@@ -87,15 +65,10 @@ header section{
 }
 
 main {
-    padding: 2rem;
     max-width: 1400px;
     margin: 0;
     align-self: center;
 }
-
-
-
-
 
 .hero {
     display: grid;
@@ -134,10 +107,6 @@ iframe {
     height: 472px;
 }
 
-
-
-
-
 .events h2 {
     margin-top: 2rem;
 }
@@ -158,8 +127,6 @@ iframe {
     background-color: #557ACE;
 }
 
-
-
 table {
     display: flex;
     align-items: center;
@@ -168,7 +135,7 @@ table {
 
 th,
 td {
-    padding: 10px 40px;
+    padding: 10px 38px;
 }
 
 th {
@@ -179,24 +146,12 @@ td {
     border: 2px solid #041C52;
 }
 
-
-
-
 form {
     display: flex;
     flex-direction: column;
     width: 600px;
 }
  
-
-
-
-
-
-
-
-
-
 footer {
     display: flex;
     flex-direction: row;
@@ -222,12 +177,17 @@ footer a {
     display: flex;
     flex-direction: column;
 }
+.hero article,
+aside {
+    border: none;
+    padding: 1rem;
+    border-radius: none;
+}
 iframe {
     width: 600px;
     height: 400px;
 }
 }
-
 
 @media (max-width: 768px){
 form{
@@ -242,34 +202,28 @@ header section{
     flex-direction: column;
     justify-content: center;
    } 
-   header img {
+header img {
     margin-left: 0rem;
 }
-
 header h1 {
     margin-right: 0rem;
     align-items: center;
     padding: 1rem 3rem;
     text-align: center;
 }
-
-}
-
-
-@media (max-width: 480px){
-header section{
+.events div div {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-   } 
-   header img {
-    margin-left: 0rem;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    gap: 1rem;
+    border: 3px solid #041C52;
+    border-radius: 6px;
+    background-color: #557ACE;
+}
+.events div div a img {
+    width: 300px;
+}
 }
 
-header h1 {
-    margin-right: 0rem;
-    align-items: center;
-    padding: 1rem 3rem;
-    text-align: center;
-}
-}
