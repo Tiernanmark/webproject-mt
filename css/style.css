@@ -32,7 +32,7 @@ table {
   font-family: "Germania One", system-ui;
   font-weight: 400;
   font-style: normal;
-  font-size: 20px;
+  font-size: large;
 }
 
 h2 {
@@ -159,6 +159,25 @@ iframe {
 }
 
 
+
+table {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+th,
+td {
+    padding: 10px 40px;
+}
+
+th {
+    background-color: #557ACE;
+}
+
+td {
+    border: 2px solid #041C52;
+}
 
 
 
