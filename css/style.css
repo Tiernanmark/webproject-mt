@@ -81,10 +81,22 @@ aside {
     border: 2px solid black;
     padding: 2rem;
     border-radius: 6px;
+    background-color: #557ACE;
 }
 
 .hero article h2 {
     margin-bottom: 1rem;
+}
+
+.hero aside a {
+    text-decoration: none;
+    color: #f9f9f9;
+}
+
+.hero aside a:hover {
+    color: #041C52;
+    font-size: larger;
+    text-decoration: underline;
 }
 
 ul {
@@ -125,6 +137,21 @@ iframe {
     border: 3px solid #041C52;
     border-radius: 6px;
     background-color: #557ACE;
+}
+
+.events div div a {
+    text-decoration: none;
+    color: #f9f9f9;
+}
+
+.events div div a:hover {
+    color: #041C52;
+    font-size: larger;
+    text-decoration: underline;
+}
+
+.events div div img:hover {
+  filter: drop-shadow(0 0 50px #041c52);
 }
 
 table {
