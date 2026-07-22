@@ -42,11 +42,6 @@ h1 {
      2px  2px 0 #041C52;
 }
 
-header {
-    display: flex;
-    flex-direction: column;
-}
-
 nav {
     background-color: #557ACE; 
 }
@@ -62,7 +57,7 @@ header h1 {
 nav button {
     margin-left: 1rem;
 }
-header section{
+header {
     color: #041C52;
     display: flex;
     justify-content: space-between;
@@ -239,7 +234,7 @@ iframe {
     width: auto;
     height: auto;
 }
-header section{
+header {
     display: flex;
     flex-direction: column;
     justify-content: center;
