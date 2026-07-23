@@ -43,7 +43,7 @@ Hosted using GitHub Pages. To deploy your own version follow these steps:
 
 ### Local Cloning
 To run this project locally:
-1. Clone the repository using `git clone https://github.com`.
+1. Clone the repository using `https://github.com/Tiernanmark/webproject-mt`.
 2. Open the directory in your preferred code editor.
 3. Open `index.html` in any web browser to view the site.
 
